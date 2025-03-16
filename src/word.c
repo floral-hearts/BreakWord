@@ -11,7 +11,7 @@ void printJChar(JChar jc) {
         str[1] = 0x82;
         str[2] = 0xa1;
         break;
-    case JC_A:////////////////////////////////////////////////////////
+    case JC_A:
         str[1] = 0x82;
         str[2] = 0xa2;
         break;
@@ -130,6 +130,50 @@ void printJChar(JChar jc) {
     case JC_ZO:
         str[1] = 0x82;
         str[2] = 0xbe;
+        break;
+    case JC_TA:
+        str[1] = 0x82;
+        str[2] = 0xbf;
+        break;
+    case JC_DA:
+        str[1] = 0x83;
+        str[2] = 0x80;
+        break;
+    case JC_TI:
+        str[1] = 0x83;
+        str[2] = 0x81;
+        break;
+    case JC_DI:
+        str[1] = 0x83;
+        str[2] = 0x82;
+        break;
+    case JC_XTU:
+        str[1] = 0x83;
+        str[2] = 0x83;
+        break;
+    case JC_TU:
+        str[1] = 0x83;
+        str[2] = 0x84;
+        break;
+    case JC_DU:
+        str[1] = 0x83;
+        str[2] = 0x85;
+        break;
+    case JC_TE:
+        str[1] = 0x83;
+        str[2] = 0x86;
+        break;
+    case JC_DE:
+        str[1] = 0x83;
+        str[2] = 0x87;
+        break;
+    case JC_TO:
+        str[1] = 0x83;
+        str[2] = 0x88;
+        break;
+    case JC_DO:
+        str[1] = 0x83;
+        str[2] = 0x89;
         break;
     }
 }
