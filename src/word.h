@@ -53,4 +53,6 @@ typedef enum tagJChar {
     JC__,
 } JChar;
 
+void printJChar(JChar jc);
+
 #endif
