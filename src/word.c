@@ -175,5 +175,129 @@ void printJChar(JChar jc) {
         str[1] = 0x83;
         str[2] = 0x89;
         break;
+    case JC_NA:
+        str[1] = 0x83;
+        str[2] = 0x8a;
+        break;
+    case JC_NI:
+        str[1] = 0x83;
+        str[2] = 0x8b;
+        break;
+    case JC_NU:
+        str[1] = 0x83;
+        str[2] = 0x8c;
+        break;
+    case JC_NE:
+        str[1] = 0x83;
+        str[2] = 0x8d;
+        break;
+    case JC_NO:
+        str[1] = 0x83;
+        str[2] = 0x8e;
+        break;
+    case JC_HA:
+        str[1] = 0x83;
+        str[2] = 0x8f;
+        break;
+    case JC_BA:
+        str[1] = 0x83;
+        str[2] = 0x90;
+        break;
+    case JC_PA:
+        str[1] = 0x83;
+        str[2] = 0x91;
+        break;
+    case JC_HI:
+        str[1] = 0x83;
+        str[2] = 0x92;
+        break;
+    case JC_BI:
+        str[1] = 0x83;
+        str[2] = 0x93;
+        break;
+    case JC_PI:
+        str[1] = 0x83;
+        str[2] = 0x94;
+        break;
+    case JC_HU:
+        str[1] = 0x83;
+        str[2] = 0x95;
+        break;
+    case JC_BU:
+        str[1] = 0x83;
+        str[2] = 0x96;
+        break;
+    case JC_PU:
+        str[1] = 0x83;
+        str[2] = 0x97;
+        break;
+    case JC_HE:
+        str[1] = 0x83;
+        str[2] = 0x98;
+        break;
+    case JC_BE:
+        str[1] = 0x83;
+        str[2] = 0x99;
+        break;
+    case JC_PE:
+        str[1] = 0x83;
+        str[2] = 0x9a;
+        break;
+    case JC_HO:
+        str[1] = 0x83;
+        str[2] = 0x9b;
+        break;
+    case JC_BO:
+        str[1] = 0x83;
+        str[2] = 0x9c;
+        break;
+    case JC_PO:
+        str[1] = 0x83;
+        str[2] = 0x9d;
+        break;
+    case JC_MA:
+        str[1] = 0x83;
+        str[2] = 0x9e;
+        break;
+    case JC_MI:
+        str[1] = 0x83;
+        str[2] = 0x9f;
+        break;
+    case JC_MU:
+        str[1] = 0x83;
+        str[2] = 0xa0;
+        break;
+    case JC_ME:
+        str[1] = 0x83;
+        str[2] = 0xa1;
+        break;
+    case JC_MO:
+        str[1] = 0x83;
+        str[2] = 0xa2;
+        break;
+    case JC_XYA:
+        str[1] = 0x83;
+        str[2] = 0xa3;
+        break;
+    case JC_YA:
+        str[1] = 0x83;
+        str[2] = 0xa4;
+        break;
+    case JC_XYU:
+        str[1] = 0x83;
+        str[2] = 0xa5;
+        break;
+    case JC_YU:
+        str[1] = 0x83;
+        str[2] = 0xa6;
+        break;
+    case JC_XYO:
+        str[1] = 0x83;
+        str[2] = 0xa7;
+        break;
+    case JC_YO:
+        str[1] = 0x83;
+        str[2] = 0xa8;
+        break;
     }
 }
