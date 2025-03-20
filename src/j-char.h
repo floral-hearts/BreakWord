@@ -52,6 +52,6 @@ typedef enum tag_J_Char {
     JC___,   // ゞ
 } J_Char;
 
-putjc(J_Char jc);
+void putjc(J_Char jc);
 
 #endif
